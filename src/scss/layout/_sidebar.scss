@@ -1,0 +1,111 @@
+.sidebar_navbar{
+   max-width: 100%;
+   padding: 1.6rem 1rem;
+   background-color: $color-light;
+   border-radius: $border-radius;
+}
+
+.logo{
+   margin-left: 1rem;
+}
+
+.sidebar_content {
+   background: #FFF;
+   padding: 3.7rem 2.9rem 0 2.9rem;
+   margin: 0.8rem 0;
+   border-radius: $border-radius;
+}
+
+.personal_info{
+   text-align: center;
+}
+
+.roberto_info {
+   display: grid;
+   align-items: center;
+   grid-gap: 2rem;
+   grid-template-columns: repeat(3, auto);
+   justify-content: center;
+}
+
+h2 {
+   font-size: 1.8rem;
+   margin: 2rem 0 0.6rem 0;
+}
+
+span.number {
+   font-size: 1.4rem;
+}
+
+.wallet_balanse {
+   height: 8.4rem;
+   background: $color-gray;
+   padding: 1.9rem;
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   justify-items: end;
+   align-items: center;
+   text-align: start;
+   border-radius: $border-radius;
+   margin: 2.5rem 0 0.3rem 0;
+}
+
+.balance_span{
+   font-size: 1.4rem;
+   font-weight: 400;
+}
+
+.price_span{
+   display: block;
+   font-size: 2rem;
+   font-weight: 700;
+}
+
+.share_wallet {
+    max-width: 100%;
+    background: rgba(253, 173, 24, 0.089);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+span.share_span {
+   color: $color-orange;
+   font-size: 1.4rem;
+   vertical-align: super;
+   display: inline-block;
+   margin-left: 1.2rem;
+}
+
+.services {
+   padding: 6.8rem 0 0 0;
+   overflow: auto;
+}
+
+.service > span:last-child,
+.service_footer > span:nth-child(2) {
+   display: inline-block;
+   font-size: 1.4rem;
+   font-weight: 500;
+   margin-left: 2.4rem;
+   align-self: center;
+   color: rgba(128, 128, 128, 0.795);
+}
+
+.active_span{
+   color: black !important;
+}
+
+.service {
+   display: flex;
+   margin-bottom: 3.2rem;
+}
+
+.serives-footer{
+   margin-top: 5.4rem;
+}
+
+.service_footer{
+   padding-top: 1.4rem;
+   border-top: 1px solid gainsboro;
+   vertical-align: middle;
+}
